@@ -16,4 +16,4 @@ class Solution(object):
             else:
                 high = mid - 1
                 
-        return low 
+        return low
