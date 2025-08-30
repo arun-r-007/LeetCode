@@ -25,7 +25,6 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
         }
     }
 
-
     if (j%2==1) {
         return a[j/2];
     } else {
