@@ -7,3 +7,4 @@ class Solution(object):
         num = int(''.join(map(str,digits))) + 1
         digits[:] = list(map(int, str(num)))
         return digits
+    
