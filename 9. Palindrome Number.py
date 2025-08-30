@@ -13,5 +13,5 @@ class Solution(object):
         if string == string_rev:
             return True
         else:
-            return False
+            return False 
         
