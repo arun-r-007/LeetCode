@@ -24,7 +24,7 @@ int lengthOfLongestSubstring(char *s) {
      
         charIndex[currentChar] = j + 1;
         
-       
+
         j++;
     }
 
