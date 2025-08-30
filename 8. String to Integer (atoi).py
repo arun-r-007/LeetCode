@@ -25,5 +25,5 @@ class Solution(object):
             result = result * 10 + digit
             i += 1
 
-        return sign * result
+        return sign * result 
     
