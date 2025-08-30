@@ -18,4 +18,3 @@ class Solution(object):
                 left += 1
 
         return 0 if minimum == float('inf') else minimum
-    
