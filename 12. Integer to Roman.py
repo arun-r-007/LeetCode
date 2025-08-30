@@ -26,3 +26,4 @@ class Solution(object):
                 num -= value
                 result.append(symbol)
         return ''.join(result)
+    
