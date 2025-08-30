@@ -7,3 +7,4 @@ class Solution(object):
         """
         nums[:] = [x for x in nums if x != val]
         return len(nums)
+    
