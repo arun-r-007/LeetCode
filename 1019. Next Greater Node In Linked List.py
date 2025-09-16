@@ -25,4 +25,3 @@ class Solution(object):
             stack.append(i)
         
         return result
-    
