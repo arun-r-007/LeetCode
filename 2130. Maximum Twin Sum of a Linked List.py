@@ -27,4 +27,3 @@ class Solution(object):
                 max1 = k
 
         return max1
-    
