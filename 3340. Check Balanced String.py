@@ -1,4 +1,11 @@
-
+class Solution(object):
+    def isBalanced(self, num):
+        """
+        :type num: str
+        :rtype: bool
+        """
+        return sum(map(int, num[::2])) == sum(map(int, num[1::2]))
+        
 
 
 
