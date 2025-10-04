@@ -9,38 +9,7 @@ class Solution(object):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Alternative solution
 
 
 
