@@ -1,3 +1,17 @@
-my_list = [10, 20, 30, 40, 50]
-last_two_values = my_list[-2:]
-print(last_two_values)
+class Solution(object):
+    def rotate(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: None Do not return anything, modify nums in-place instead.
+        """
+        n = len(nums)
+        k = k % n
+        
+        end_val = nums[-k:]
+        
+        for i in range(n - k - 1, -1, -1):
+            nums[i + k] = nums[i]
+        
+        for i in range(k):
+            nums[i] = end_val[i]
