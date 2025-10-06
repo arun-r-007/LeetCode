@@ -1,4 +1,11 @@
-
+class Solution(object):
+    def isMonotonic(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: bool
+        """
+        return all(nums[i] <= nums[i+1] for i in range(len(nums)-1)) or \
+               all(nums[i] >= nums[i+1] for i in range(len(nums)-1))
 
 
 
