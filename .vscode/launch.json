@@ -3,7 +3,7 @@
   "configurations": [
     {
       "name": "Python: Current File",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "${file}",
       "console": "externalTerminal"
@@ -15,8 +15,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Asus/Desktop/LeetCode/LeetCode",
-      "program": "c:/Users/Asus/Desktop/LeetCode/LeetCode/build/Debug/outDebug",
+      "cwd": "c:/Users/asus/Desktop/LeetCode/LeetCode",
+      "program": "c:/Users/asus/Desktop/LeetCode/LeetCode/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
