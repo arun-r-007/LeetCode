@@ -1,4 +1,16 @@
+class Solution(object):
+    def missingNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        n = len(nums)
 
+        main_sum = sum(range(0, n + 1))
+        sub_sum = sum(nums)
+
+        res = main_sum - sub_sum
+        return res
 
 
 
