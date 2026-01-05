@@ -25,3 +25,4 @@ class Solution(object):
         #             ls.append(nums[i])
 
         #     return ls[0]
+        
