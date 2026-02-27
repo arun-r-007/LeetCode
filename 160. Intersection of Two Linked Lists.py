@@ -12,7 +12,6 @@ class Solution(object):
         :rtype: ListNode
         """
 
-
         a=headA 
         b=headB
         while a!=b:
