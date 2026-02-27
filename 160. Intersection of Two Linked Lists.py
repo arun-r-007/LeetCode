@@ -13,7 +13,6 @@ class Solution(object):
         """
 
 
-
         a=headA 
         b=headB
         while a!=b:
