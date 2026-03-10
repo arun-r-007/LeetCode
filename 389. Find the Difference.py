@@ -11,4 +11,3 @@ class Solution(object):
             result ^= ord(c)
             
         return chr(result)
-    
