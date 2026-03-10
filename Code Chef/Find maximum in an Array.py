@@ -8,6 +8,3 @@ for i in range(t):
     print(max(a))
     n = None
     a.clear()
-    
-
-    
