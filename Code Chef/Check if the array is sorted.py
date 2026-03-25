@@ -5,6 +5,7 @@ class Solution(object):
         :rtype: bool
         """
         count = 0
+        n = len(nums)
 
         for i in range(n-1):
             if nums[i] > nums[i+1]:
