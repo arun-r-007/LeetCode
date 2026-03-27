@@ -26,4 +26,3 @@ class Solution(object):
             prev = curr
 
         return total
-    
