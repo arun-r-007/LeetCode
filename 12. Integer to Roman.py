@@ -27,4 +27,3 @@ class Solution(object):
                 result.append(symbol)
         return ''.join(result)
     
-    
