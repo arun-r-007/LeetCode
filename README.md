@@ -21,5 +21,3 @@ Navigate to the respective folders to find solutions organized by problem number
 - JavaScript
 
 ---
-
-**Repository**: [Daily-Code](https://github.com/arun-r-007/Daily-Code)
