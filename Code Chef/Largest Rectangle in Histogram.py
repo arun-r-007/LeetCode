@@ -1,5 +1,44 @@
 
+# cook your dish here
 
+def largest_rectangle_area(heights):
+    stack = []
+    max_area = 0
+    n = len(heights)
+
+    for i in range(n):
+        while stack and heights[stack[-1]] > heights[i]:
+            h = heights[stack.pop()]
+            
+            if not stack:
+                width = i
+            else:
+                width = i - stack[-1] - 1
+            
+            max_area = max(max_area, h * width)
+        
+        stack.append(i)
+
+    # Process remaining bars
+    while stack:
+        h = heights[stack.pop()]
+        
+        if not stack:
+            width = n
+        else:
+            width = n - stack[-1] - 1
+        
+        max_area = max(max_area, h * width)
+
+    return max_area
+
+
+# Main
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int, input().split()))
+    print(largest_rectangle_area(arr))
 
 
 
