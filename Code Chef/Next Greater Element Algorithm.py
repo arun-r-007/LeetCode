@@ -21,4 +21,3 @@ for i in range(n-1, -1, -1):
     stack.append(arr[i])
     
 print(*nge)
-
