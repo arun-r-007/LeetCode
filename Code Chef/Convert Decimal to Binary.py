@@ -52,3 +52,5 @@ if __name__ == "__main__":
     for _ in range(t):
         decimal = int(input())
         decimal_to_binary(decimal)
+
+
