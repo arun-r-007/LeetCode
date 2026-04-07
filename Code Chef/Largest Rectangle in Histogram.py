@@ -1,3 +1,4 @@
+
 # cook your dish here
 
 def largest_rectangle_area(heights):
@@ -87,8 +88,3 @@ for _ in range(t):
 #     n = int(input())
 #     arr = list(map(int, input().split()))
 #     print(largest_rectangle_area(arr))
-
-
-
-
-
