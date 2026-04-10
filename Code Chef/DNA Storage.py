@@ -13,9 +13,6 @@ while t > 0:
         '11' : 'G'
     }
     
-
-
-    
     str1 = ''
     
     for i in range (0,n,2):
