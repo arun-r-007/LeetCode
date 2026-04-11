@@ -15,3 +15,6 @@ class Solution(object):
                         ans = min(ans, dist)
 
         return ans if ans != float('inf') else -1
+    
+
+    
