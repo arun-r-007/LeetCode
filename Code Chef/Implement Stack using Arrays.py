@@ -6,8 +6,6 @@ class Stack:
 
     def push(self, character):
         # If stack is full (check using isFull function)
-
-        
         if self.is_full():
             print("Stack is full")
             return
