@@ -12,3 +12,7 @@ while t:
     s = " ".join(capitalized_lst)
     
     print(s)
+
+
+
+    
