@@ -21,6 +21,3 @@ while t > 0:
             str1 += dict1[s1]
     
     print(str1)
-
-
-    
