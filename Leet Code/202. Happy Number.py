@@ -11,9 +11,45 @@ class Solution(object):
             if n == 1:
                 return True
             seen.add(n)
-            n = sum(int(d)**2 for d in str(n))
+
+            total = 0
+            
+            for d in str(n):
+                total += int(d) * int(d)
+
+            n = total
+
+
+            # n = sum(int(d)**2 for d in str(n))
         
         return False
+
+
+
+
+
+
+
+
+
+
+
+# class Solution(object):
+#     def isHappy(self, n):
+#         """
+#         :type n: int
+#         :rtype: bool
+#         """
+
+#         seen = set()
+        
+#         while n not in seen:
+#             if n == 1:
+#                 return True
+#             seen.add(n)
+#             n = sum(int(d)**2 for d in str(n))
+        
+#         return False
 
 
 
