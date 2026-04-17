@@ -55,13 +55,6 @@ for _ in range(t):
 
 
 
-
-
-
-
-
-
-
 # # cook your dish here
 
 # def largest_rectangle_area(arr):
