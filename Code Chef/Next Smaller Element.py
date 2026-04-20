@@ -9,6 +9,13 @@ def next_smallest_element(arr):
             stack.pop()
         if stack:
             result[i] = arr[stack[-1]]
+
+
+
+
+
+
+            
         stack.append(i)
 
     return result
