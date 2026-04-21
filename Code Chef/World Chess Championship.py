@@ -28,3 +28,10 @@ while t :
         print(55 * x)
     else:
         print(40 * x)
+
+
+
+
+
+
+        
