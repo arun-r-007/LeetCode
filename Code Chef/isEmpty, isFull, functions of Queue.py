@@ -22,6 +22,3 @@ def isFull():
 # Function to get the current size of the queue
 def size():
     return len(a)
-
-
-
