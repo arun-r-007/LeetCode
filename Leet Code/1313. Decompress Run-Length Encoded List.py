@@ -12,3 +12,5 @@ class Solution(object):
             ls.extend([nums[i+1]] * nums[i])      
 
         return ls
+    
+    
