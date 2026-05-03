@@ -22,3 +22,5 @@ class Solution(object):
                 total += sum(divisors)
 
         return total
+
+        
