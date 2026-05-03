@@ -51,3 +51,6 @@ if __name__ == "__main__":
     for i in range(q.current_size):
         print(q.a[idx], end=" ")
         idx = (idx + 1) % q.max_size
+
+
+        
